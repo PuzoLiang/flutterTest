@@ -87,3 +87,6 @@ class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => new RandomWordsState();
 }
+
+
+class WebSocketChannel(StreamChannel<List<int>> channel, { String protocpl, Duration pingInterval, bool serverSide: true});
