@@ -32,7 +32,7 @@ class RandomWordsState extends State<RandomWords> {
     final wordPair = WordPair.random();
     return Scaffold(
     appBar: AppBar(
-      title: Text('2019年воыфлйтвфы овлыф'),
+      title: Text('2019年中国制造业采供经理人'),
     ),
     body: _buildSuggestions(),
   );
